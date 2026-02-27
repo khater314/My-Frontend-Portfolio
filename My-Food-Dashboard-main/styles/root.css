@@ -1,0 +1,11 @@
+:root{
+    --main-color :#eb5837;
+    --secondray-color :#eb583725;
+    --dark-color:#2a2a2a;
+    --gray-color:#eff1f5;
+    --border-color: rgba(0,0,0,0.1);
+    --border: 1px solid var(--border-color);
+    --border-radius: 4px;
+    --border-radius-5: 5px;
+    --border-radius-10: 10px;
+}

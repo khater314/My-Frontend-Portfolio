@@ -1,0 +1,87 @@
+.navbar {
+    padding-block: 2em;
+    font-size: 0.8em;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    background-color: var(--white-color);
+    z-index: 1000;
+}
+nav .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* ----- Links ----- */
+.nav_links ul {
+    display: flex;
+    align-items: center;
+    gap: 2.5em;
+
+}
+.nav_links ul li a {
+    text-transform: uppercase;
+    transition: var(--transition);
+}
+.nav_links ul li a:hover {
+    opacity: 0.5;
+}
+.nav_links ul li a.active {
+    opacity: 0.5;
+}
+.nav_links ul li:focus {
+    color: var(--gray-color);
+}
+/* ----- Logo ----- */
+
+.nav_logo img{
+    width: 10em;
+}
+
+/* ----- Tools ----- */
+.nav_tools {
+    display: flex;
+    align-items: center;
+    gap: 2em;
+}
+.nav_tools div {
+    cursor: pointer;
+    transition: var(--transition);
+}
+.nav_tools div:not(:first-child):hover {
+    opacity: 0.5;
+}
+.nav_tools .card_icon,
+.nav_tools .login_icon {
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+}
+
+.card_icon span:nth-child(2) {
+    color: var(--gray-color);
+}
+.nav_tools span {
+    font-weight: 600;
+}
+.search_icon {
+    transform: rotate(90deg);
+    font-weight: 600;
+}
+/* ----- Media Query ----- */
+@media (max-width:1024px) {
+    .nav_links {
+        display: none;
+    }
+    .nav_tools {
+        gap: 1em;
+    }
+}
+@media (max-width:460px) {
+    .nav_tools .card_icon,
+    .nav_tools .login_icon,
+    .nav_links {
+        display: none;
+    }
+}

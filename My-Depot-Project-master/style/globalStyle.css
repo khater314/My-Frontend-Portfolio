@@ -1,0 +1,43 @@
+.container {
+    padding-inline: 7em;
+}
+
+.y-padding {
+    padding-block: 5em;
+}
+.black_btn {
+    background-color: var(--main-color);
+    color: var(--white-color);
+    text-transform: uppercase;
+    cursor: pointer;
+    border: 0px;
+    padding-inline: 1em;
+    padding-block: 0.8em;
+    font-size: 1em;
+}
+.white_btn {
+    background-color: var(--white-color);
+    color: var(--main-color);
+    text-transform: uppercase;
+    cursor: pointer;
+    border: 0px;
+    padding-inline: 1em;
+    padding-block: 0.8em;
+    font-size: 1em;
+}
+*::-webkit-scrollbar {
+        display: none;
+}
+
+/* Media Query */
+
+@media (max-width:1024px) {
+    .container {
+        padding-inline: 2em;
+    }
+}
+@media (max-width:460px) {
+    .container {
+        padding-inline: 1.5em;
+    }
+}

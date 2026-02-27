@@ -1,0 +1,17 @@
+.container {
+    padding-inline: 7em;
+}
+.py{
+    padding-block: 7em;
+
+}
+
+@media (max-width:1024px) {
+    .container {
+        padding-inline: 2em;
+    }
+    .py{
+    padding-block: 4em;
+
+}
+}

@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Depot | Cart</title>
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+            integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="./style/main.css" />
+    </head>
+    <body>
+        <!-- start navbar  -->
+        <nav class="navbar">
+            <div class="container">
+                <div class="navbar_menus">
+                    <ul>
+                        <li>
+                            <a href="./index.html">Home</a>
+                        </li>
+                        <li>
+                            <a class="active" href="./shop.html">shop</a>
+                        </li>
+                        <li>
+                            <a href="#">pages</a>
+                        </li>
+                        <li>
+                            <a href="#">elements</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="navbar_logo">
+                    <img src="./public/images/logo.png" alt="logo" />
+                </div>
+                <div class="navbar_tools">
+                    <div class="navbar_tools_cart">
+                        <span>Cart</span>
+                        <span>($0)</span>
+                    </div>
+                    <div class="navbar_tools_login">
+                        <i class="fa-regular fa-user"></i>
+                        <span>Login</span>
+                    </div>
+                    <div class="navbar_tools_search">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+                    <div class="navbar_tools_bar">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!-- end navbar  -->
+        <main>
+            <!-- start banner cart  -->
+            <section class="cart_banner">
+                <h2>Cart</h2>
+            </section>
+            <section class="cart_details_container py">
+                <div class="container">
+                    <h2>Shopping Cart</h2>
+                    <div class="cart_details_container_items">
+                        <div class="cart_items">
+                            <div class="cart_items_products_left">
+                                <div class="cart_items_products">
+                                    <i class="fas fa-xmark"></i>
+                                    <div class="cart_items_products_image">
+                                        <img src="./public/images/product1.jpg" alt="" />
+                                    </div>
+                                    <div class="cart_items_products_title">
+                                        <h4>Pottery Vase</h4>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="cart_items_products_price">
+                                <span>$60</span>
+                            </div>
+                            <div class="single_product_container_content_quantity">
+                                <div class="single_product_container_content_quantity_input">
+                                    <span>Quantity</span>
+                                    <div class="single_product_container_content_quantity_input_input">
+                                        <i class="fas fa-caret-left"></i>
+                                        <input type="text" name="" id="" value="1" />
+                                        <i class="fas fa-caret-right"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="cart_items_products_price">
+                                <span>$60</span>
+                            </div>
+                            <div class="cart_item_coupon">
+                                <div class="cart_item_coupon_left">
+                                    <span>Coupon Code</span>
+                                    <h6>Apply coupon</h6>
+                                </div>
+                                <div class="cart_item_coupon_right">
+                                    <h6>Update Cart</h6>
+                                </div>
+                            </div>
+                            <a href="./shop.html" class="back_to_shop"><i class="fas fa-arrow-left-long"></i> Back to shop</a>
+                        </div>
+                        <div class="cart_invoice">
+                            <h3>Cart totals</h3>
+                            <div class="cart_invoice_details">
+                                <span>Subtotal</span>
+                                <span>$60</span>
+                            </div>
+                            <div class="cart_invoice_details">
+                                <span>Shipping</span>
+                                <div class="cart_invoice_details_select">
+                                    <div class="select">
+                                        <input type="radio" name="shipping" id="" />
+                                        <label for="">Free shipping</label>
+                                    </div>
+                                    <div class="select">
+                                        <input type="radio" name="shipping" />
+                                        <label for="">Local pickup</label>
+                                    </div>
+                                    <div class="select">
+                                        <input type="radio" name="shipping" />
+                                        <label for="">Flat Rate: $10</label>
+                                    </div>
+                                    <span class="eg_shipping">Shipping to <span>Egypt</span>.</span>
+                                    <h4 class="change_address">Change Address <i class="fas fa-caret-down"></i></h4>
+                                </div>
+                            </div>
+                            <div class="total">
+                                <div class="total_details">
+                                    <h5>Total</h5>
+                                    <span>$60</span>
+                                </div>
+                                <div class="total_checkout_btn">
+                                    <button>Checkout</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- end banner cart  -->
+        </main>
+
+        <!-- start footer  -->
+        <footer class="py dark_footer">
+            <div class="container">
+                <div class="footer_links">
+                    <div class="footer_links_service">
+                        <h6>Customer Service</h6>
+                        <ul>
+                            <li><a href="#">Help & Contact us</a></li>
+                            <li><a href="#">Returns & Refunds</a></li>
+                            <li><a href="#">Online Stores</a></li>
+                            <li><a href="#">Terms & Conditions</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer_links_service">
+                        <h6>Company</h6>
+                        <ul>
+                            <li><a href="#">What We Do</a></li>
+                            <li><a href="#">Available Services</a></li>
+                            <li><a href="#">Latest Posts</a></li>
+                            <li><a href="#">FAQs</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer_links_service">
+                        <h6>Social Media</h6>
+                        <ul>
+                            <li><a href="#">Twitter</a></li>
+                            <li><a href="#">Instagram</a></li>
+                            <li><a href="#">Tumblr</a></li>
+                            <li><a href="#">Pinterest</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer_links_service">
+                        <h6>Profile</h6>
+                        <ul>
+                            <li><a href="#">My Account</a></li>
+                            <li><a href="#">Checkout</a></li>
+                            <li><a href="#">Order Tracking</a></li>
+                            <li><a href="#">Help & Support</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer_bottom">
+                <h6>© 2024 it legend, All Rights Reserved</h6>
+                <div class="footer_bottom_links">
+                    <span>Follow us</span>
+                    <div class="footer_bottom_links_social">
+                        <i class="fab fa-facebook-f"></i>
+                        <i class="fab fa-twitter"></i>
+                        <i class="fab fa-instagram"></i>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- end footer  -->
+    </body>
+</html>

@@ -1,0 +1,30 @@
+/* import style files  */
+@import "./root.css";
+@import "./reset.css";
+@import "./globalStyle.css";
+@import "./navbar.css";
+@import "./banner.css";
+@import "./product_section.css";
+@import "./product_card.css";
+@import "./footer.css";
+@import "./singleProduct.css";
+@import "./shop.css";
+@import "./cart.css";
+
+.toTop {
+    width: 2.5em;
+    height: 2.5em;
+    background: var(--main-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    position: fixed;
+    bottom: 5em;
+    right: 1.5em;
+    z-index: 5;
+    cursor: pointer;
+}
+.toTop i {
+    font-size: .8em;
+}

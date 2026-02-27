@@ -1,0 +1,22 @@
+.shop_section {
+    padding-block: 4em;
+}
+.shop_section .single_product_breadcrumb {
+    background: #fafafa;
+    padding-block-start: 2em;
+    opacity: 1;
+    padding-inline: 7em;
+    margin-bottom: 2em;
+    height: 7em;
+    display: flex;
+    align-items: center;
+}
+.shop_section .single_product_breadcrumb p{
+    opacity: .5;
+}
+
+@media (max-width:1024px) {
+    .shop_section .single_product_breadcrumb{
+        padding-inline: 2em;
+    }
+}

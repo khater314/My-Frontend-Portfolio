@@ -1,0 +1,107 @@
+.banner{
+    height: 95vh;
+}
+.banner .container{
+    height: 100%;
+}
+.banner .banner_image {
+    height: 100%;
+    background: var(--bg-color);
+    display: flex;
+    align-items: flex-end;
+    padding-block: 5em;
+    padding-inline: 8em;
+    position: relative;
+}
+.banner_image_src {
+    /* height: 40vh; */
+    /* width: 40%; */
+}
+.banner_image_src  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.banner_image_content h2 {
+    font-size: 2.5em;
+    font-weight: 500;
+    margin-bottom: .5em;
+}
+.banner_image_content p {
+    opacity: .5;
+    width: 60%;
+    font-size: 1.2em;
+}
+.banner_image_desktop_pagination{
+    width: 15em;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: -4%;
+    display: flex;
+    gap: .8em;
+    flex-direction: column;
+}
+.banner_image_desktop_pagination_item{
+    display: flex;
+    align-items: center;
+    gap: .5em;
+}
+.banner_image_desktop_pagination_item div{
+    height: 2px;
+    width: 5em;
+    background: var(--main-color);
+}
+.banner_image_desktop_pagination_item:not(:nth-child(1)) *{
+    opacity: .5;
+}
+.banner_image_desktop_pagination_item:not(:nth-child(1)) div {
+    width: 1.7em;
+}
+.banner_image_mobile_pagination {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 2em;
+    display: none;
+    align-items: center;
+    gap: 1em;
+}
+.banner_image_mobile_pagination div {
+    width: 1.2em;
+    height: 1.2em;
+    border-radius: 50%;
+    background: var(--main-color);
+    opacity: 1;
+}
+.banner_image_mobile_pagination div:not(:nth-child(1)){
+    opacity: .5;
+}
+@media (max-width:1024px) {
+    .banner .banner_image {
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        text-align: center;
+        gap: 2em;
+        padding-inline: 1em;
+        
+    }
+    .banner_image_desktop_pagination {
+        display: none;
+    }
+    .banner_image_mobile_pagination{
+        display: flex;
+    }
+    .banner_image_content{
+        order: 1;
+    }
+    .banner_image_content p{
+        width: 100%;
+    }
+    .banner_image_src{
+        height: 70%;
+    }
+
+}
