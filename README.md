@@ -5,7 +5,6 @@
 
 | اسم المشروع | التقنيات المستخدمة | معاينة مباشرة (Live Demo) |
 | :--- | :--- | :--- |
-| **Kasper Template** | HTML, CSS | [View Demo](https://khater314.github.io/My-Frontend-Portfolio/Kasper-main/) |
 | **Lion Project** | HTML, CSS | [View Demo](https://khater314.github.io/My-Frontend-Portfolio/Lion-Project-main/) |
 | **My Food Dashboard** | HTML, CSS | [View Demo](https://khater314.github.io/My-Frontend-Portfolio/My-Food-Dashboard-main/) |
 | **My Depot Project** | HTML, CSS | [View Demo](https://khater314.github.io/My-Frontend-Portfolio/My-Depot-Project-master/) |
