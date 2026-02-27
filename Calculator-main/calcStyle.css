@@ -1,0 +1,161 @@
+body {
+    margin: 0;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    min-height: 100vh; 
+}
+.container {
+    margin-block: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+}
+.results {
+    background-color: #2e2e2e;
+    color: white;
+    font-size: 3em;
+    border: none;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    align-self: self-start;
+}
+h1 {
+    font-size: 0.5em;
+}
+.result-values {
+    font-size: 0.3em;
+}
+ul {
+    text-align: left;
+    padding-inline-start: 20px;
+}
+li {
+    margin-bottom: 0.3em;
+}
+
+.calculator {
+    width: 90%;
+    max-width: 400px; 
+    background-color: #1c1c1c;
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.calculator-display {
+    background-color: #2e2e2e;
+    color: white;
+    font-size: 3em;
+    text-align: right;
+    border: none;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+
+.calculator-buttons {
+    display: grid;
+    grid-template-columns: 1fr 80px; 
+    gap: 15px;
+}
+
+.number-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.side-operators {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+.calculator-buttons input {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%; 
+    border: none;
+    font-size: 1.5em;
+    cursor: pointer;
+    color: white;
+    background-color: #555;
+    transition: background-color 0.2s ease;
+}
+
+.calculator-buttons input:hover {
+    background-color: #777;
+}
+
+.operator {
+    background-color: #ff9f0a;
+}
+
+.operator:hover {
+    background-color: #ffb75f;
+}
+
+.clear {
+    background-color: #a5a5a5;
+    color: black;
+}
+
+.clear:hover {
+    background-color: #c0c0c0;
+}
+
+.equal-sign {
+    background-color: #03a9f4;
+}
+
+.equal-sign:hover {
+    background-color: #3f51b5;
+}
+
+.zero {
+    border-radius: 40px; 
+}
+
+.side-operators .equal-sign,
+.side-operators .operator {
+    width: 80px;
+}
+@media (max-width:600px) {
+    .container {
+        flex-direction: column;
+    }
+    .results {
+        order: 2;
+        width: 100%;
+    }
+    .calculator {
+        order: 1;
+        width: 100%;
+    }
+    .calculator-buttons input {
+        height: 40px;
+        width: 40px;
+        font-size: 1em;
+    }
+    .side-operators .equal-sign,
+    .side-operators .operator {
+    width: 40px;
+    }
+    .calculator-buttons {
+    display: grid;
+    grid-template-columns: 1fr 40px; 
+    gap: 5px;
+    }
+    .calculator {
+        max-width: 300px;
+    }
+}
