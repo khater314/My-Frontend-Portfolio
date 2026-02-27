@@ -1,0 +1,25 @@
+# 🚀 Frontend Projects Collection
+مجموعة من مشاريع واجهات المستخدم (Frontend) التي قمت بتنفيذها لتطوير مهاراتي في الـ UI/UX، بجانب تركيزي الأساسي كـ **Junior .NET Developer**.
+
+## 📑 فهرس المشاريع (Project Index)
+
+| اسم المشروع | التقنيات المستخدمة | معاينة مباشرة (Live Demo) |
+| :--- | :--- | :--- |
+| **Kasper Template** | HTML, CSS | [View Demo](https://khater314.github.io/Frontend-Collection/Kasper-main/) |
+| **Lion Project** | HTML, CSS | [View Demo](https://khater314.github.io/Frontend-Collection/Lion-Project-main/) |
+| **My Food Dashboard** | HTML, CSS | [View Demo](https://khater314.github.io/Frontend-Collection/My-Food-Dashboard-main/) |
+| **My Depot Project** | HTML, CSS | [View Demo](https://khater314.github.io/Frontend-Collection/My-Depot-Project-master/) |
+| **My Sam Portfolio** | HTML, CSS | [View Demo](https://khater314.github.io/Frontend-Collection/My-Sam-Portfolio-main/) |
+| **Calculator** | JavaScript, DOM | [View Demo](https://khater314.github.io/Frontend-Collection/Calculator-main/) |
+| **To-Do List** | JavaScript, LocalStorage | [View Demo](https://khater314.github.io/Frontend-Collection/To-Do-List-main/) |
+
+---
+
+## 🛠 مهارات تقنية أخرى (Technical Skills)
+بجانب مشاريع الـ Frontend، أنا متخصص في تطوير الأنظمة الخلفية باستخدام:
+* **C# & .NET Core** (كما هو موضح في كود الـ Views والـ Tag Helpers).
+* **Entity Framework Core**.
+* **SQL Server**.
+
+---
+📧 **للتواصل:** [LinkedIn](https://www.linkedin.com/in/ahmed-khater-ab2767364/)
